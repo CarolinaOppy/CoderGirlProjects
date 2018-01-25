@@ -39,13 +39,13 @@ public class GroceryList {
 
         out.println("Calculating your grocery bill.");
         float Item1Total;
-        Item1Total = Item1Count * Item1Cost;
+        Item1Total = (Item1Count * Item1Cost);
         float Item2Total;
-        Item2Total = Item2Count * Item2Cost;
+        Item2Total = (Item2Count * Item2Cost);
         float Item3Total;
-        Item3Total = Item3Count * Item3Cost;
+        Item3Total = (Item3Count * Item3Cost);
         float TotalBill;
-        TotalBill = Item1Total + Item2Count + Item3Total;
+        TotalBill = Item1Total + Item2Total + Item3Total;
         out.println("Your total cost is " + TotalBill +" ");
 
     }
